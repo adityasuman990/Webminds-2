@@ -111,8 +111,8 @@ const Dashboard = () => {
               <StatBox
                 title={totalBalance ? `₹ ${totalBalance}` : "Loading..."}
                 subtitle="Total Balance"
-                progress="0.75"
-                increase="+14%"
+                progress="1"
+                increase="100%"
                 icon={
                   <CurrencyRupeeIcon
                     sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -132,8 +132,8 @@ const Dashboard = () => {
               <StatBox
                 title={totalSpending ? `₹ ${totalSpending}` : "Loading..."}
                 subtitle="Total Spending"
-                progress="0.50"
-                increase="+21%"
+                progress="1"
+                increase="100%"
                 icon={
                   <ContactlessIcon
                     sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -153,8 +153,8 @@ const Dashboard = () => {
               <StatBox
                  title={totalTransactions !== null ? `${totalTransactions}` : "Loading..."}
                 subtitle="Total Transactions"
-                progress="0.30"
-                increase="+5%"
+                progress="1"
+                increase="100%"
                 icon={
                   <ReceiptIcon
                     sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
@@ -174,8 +174,8 @@ const Dashboard = () => {
               <StatBox
                 title="5"
                 subtitle="Total Users"
-                progress="0.80"
-                increase="+43%"
+              progress="1"
+                increase="100%"
                 icon={
                   <GroupIcon
                     sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
