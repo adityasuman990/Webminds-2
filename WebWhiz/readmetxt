@@ -1,0 +1,38 @@
+Project Instructions:
+
+Prerequisites:
+Ensure that you have Node.js installed on your system.
+
+Steps:
+1. Update Node.js to the latest version.
+2. Install dependencies by running:
+   
+   npm install
+   
+   Or install individual dependencies using:
+   
+   npm install bcryptjs express hbs jsonwebtoken mongoose
+  
+3. Start the development server by running:
+   
+   npm run dev
+   
+4. Open your web browser and navigate to:
+   http://localhost:3005
+   
+5. If the directories are not available, manually check by routing to:
+   
+   http://localhost:3005/bank (eg.)
+   
+
+Database Connection:
+The database has been connected through MongoDB Compass using the following connection string:
+
+mongodb+srv://adityasuman990:adityasuman@cluster0.9e7xbmo.mongodb.net/
+
+
+For any queries or assistance, please contact:
+adityasuman990@gmail.com
+
+Thank you!
+Team WebWhiz
