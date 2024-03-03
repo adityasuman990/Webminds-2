@@ -63,7 +63,7 @@ export default function Carousel({ height, section }) {
     ]
     const courseList = courses.map((course, key) => {
         return (
-            <SwiperSlide><CourseCard data={course[0]} width={"w-[45vw]"} /><CourseCard data={course[1]} width={"w-[45vw]"} /></SwiperSlide>
+            <SwiperSlide key={key}><CourseCard data={course[0]} width={"w-[45vw]"} /><CourseCard data={course[1]} width={"w-[45vw]"} /></SwiperSlide>
         )
     });
     const interview = [
@@ -120,7 +120,7 @@ export default function Carousel({ height, section }) {
     ]
     const interviewList = interview.map((course, key) => {
         return (
-            <SwiperSlide><InterviewCard data={course[0]} /><InterviewCard data={course[1]} /></SwiperSlide>
+            <SwiperSlide key={key}><InterviewCard data={course[0]} /><InterviewCard data={course[1]} /></SwiperSlide>
         )
     });
     return (
