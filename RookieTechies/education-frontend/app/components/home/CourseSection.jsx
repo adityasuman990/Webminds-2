@@ -11,7 +11,7 @@ export default function CourseSection() {
         )
     });
     return (
-        <div className="course h-screen w-screen">
+        <div className="course min-h-screen w-screen">
             <ProgressSection />
             <div className="w-1/2 h-[80px] mx-auto flex m-2 mb-8 justify-center items-center border-1 border-black rounded-xl text-xl ">
                 <div className="p-1 w-1/4 h-full border-r-1 border-black flex items-center">
@@ -33,7 +33,7 @@ export default function CourseSection() {
                 </div>
                 <FooterButton data={"See all"} />
             </div>
-            <Carousel height="45" section="course" />
+            <Carousel height="50vh" section="course" />
         </div>
     )
 }
