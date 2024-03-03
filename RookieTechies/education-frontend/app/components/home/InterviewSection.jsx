@@ -10,7 +10,7 @@ export default function InterviewSection() {
                 <h2 className="text-6xl text-white">Prepare for Interview</h2>
                 <span className={"text-2xl !w-5/12 text-white " + amaranth.className}>&quot;Unlock success: Elevate your interview skills with our comprehensive preparation.&quot;</span>
             </div>
-            <Carousel height="70" section="interview"/>
+            <Carousel height="70%" section="interview"/>
         </div >
     )
 }

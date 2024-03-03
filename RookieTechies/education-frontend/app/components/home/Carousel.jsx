@@ -124,7 +124,7 @@ export default function Carousel({ height, section }) {
         )
     });
     return (
-        <div className='carousel' style={{ height: `${height}%` }}>
+        <div className='carousel' style={{ height: `${height}` }}>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
